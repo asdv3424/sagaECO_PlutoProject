@@ -1,0 +1,794 @@
+22/04/2024 12:31:31|Warning:ClientGameVersion is undefined, accepting all version.
+22/04/2024 12:31:43|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+22/04/2024 12:31:43|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+22/04/2024 12:32:06|[Error]Fatal: An unhandled exception is thrown, terminating...
+22/04/2024 12:32:06|[Error]Error Message:System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\PartnerAI”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+22/04/2024 12:32:06|[Error]Call Stack:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+22/04/2024 12:32:06|[Error]Trying to save all player's data
+22/04/2024 12:33:19|Warning:ClientGameVersion is undefined, accepting all version.
+22/04/2024 12:33:23|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+22/04/2024 12:33:23|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+22/04/2024 12:33:48|[Error]Fatal: An unhandled exception is thrown, terminating...
+22/04/2024 12:33:48|[Error]Error Message:System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\PartnerAI”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+22/04/2024 12:33:48|[Error]Call Stack:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+22/04/2024 12:33:48|[Error]Trying to save all player's data
+22/04/2024 12:41:45|Warning:ClientGameVersion is undefined, accepting all version.
+22/04/2024 12:41:49|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+22/04/2024 12:41:49|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+22/04/2024 12:42:33|[Error]Fatal: An unhandled exception is thrown, terminating...
+22/04/2024 12:42:33|[Error]Error Message:System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\PartnerAI”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+22/04/2024 12:42:33|[Error]Call Stack:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+22/04/2024 12:42:33|[Error]Trying to save all player's data
+2024/4/22 12:44:10|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 12:44:10|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 12:44:46|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/22 12:44:46|[Error]Error Message:System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\PartnerAI”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+2024/4/22 12:44:46|[Error]Call Stack:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+2024/4/22 12:44:46|[Error]Trying to save all player's data
+2024/4/22 12:46:58|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 12:46:58|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 12:47:10|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/22 12:47:10|[Error]Error Message:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SagaMap.MapServer.ShutingDown(Object sender, ConsoleCancelEventArgs args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 682
+   在 System.Console.ControlCDelegate(Object data)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2024/4/22 12:47:10|[Error]Call Stack:   在 SagaMap.MapServer.ShutingDown(Object sender, ConsoleCancelEventArgs args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 682
+   在 System.Console.ControlCDelegate(Object data)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2024/4/22 12:47:10|[Error]Trying to save all player's data
+2024/4/22 12:47:32|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/22 12:47:32|[Error]Error Message:System.IO.FileNotFoundException: 未能找到文件“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\furniture.csv”。
+文件名:“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\furniture.csv”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.OpenFile(String path) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 26
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 215
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding, Boolean isFolder) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 97
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 112
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 225
+2024/4/22 12:47:32|[Error]Call Stack:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.OpenFile(String path) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 26
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 215
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding, Boolean isFolder) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 97
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 112
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 225
+2024/4/22 12:47:32|[Error]Trying to save all player's data
+2024/4/22 12:56:43|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 12:56:53|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 12:56:53|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 12:57:15|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/22 12:57:15|[Error]Error Message:System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\PartnerAI”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+2024/4/22 12:57:15|[Error]Call Stack:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+2024/4/22 12:57:15|[Error]Trying to save all player's data
+2024/4/22 12:57:38|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 12:57:38|[Error]cannot listen on port: 12006
+2024/4/22 12:58:11|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 12:58:22|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 12:58:22|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 12:59:17|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/22 12:59:17|[Error]Error Message:System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\PartnerAI”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+2024/4/22 12:59:17|[Error]Call Stack:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+2024/4/22 12:59:17|[Error]Trying to save all player's data
+2024/4/22 13:00:39|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 13:00:50|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 13:00:50|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 13:04:37|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/22 13:04:37|[Error]Error Message:System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\PartnerAI”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+2024/4/22 13:04:37|[Error]Call Stack:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+2024/4/22 13:04:37|[Error]Trying to save all player's data
+2024/4/22 13:16:03|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 13:16:15|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 13:16:15|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 13:16:37|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/22 13:16:37|[Error]Error Message:System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\PartnerAI”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+2024/4/22 13:16:37|[Error]Call Stack:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.SearchFile(String path, String pattern, SearchOption option) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 41
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 305
+2024/4/22 13:16:37|[Error]Trying to save all player's data
+2024/4/22 13:17:56|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 13:18:07|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 13:18:07|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 13:18:30|[Error]未能找到路径“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Skills”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   在 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   在 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   在 SagaMap.Skill.SkillHandler.LoadSkill(String path) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Skill\SkillHandler.SkillManager.cs:行号 34
+2024/4/22 13:19:30|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 13:19:30|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 13:21:08|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/22 13:21:08|[Error]Error Message:System.IO.FileNotFoundException: 未能找到文件“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\furniture.csv”。
+文件名:“C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\DB\furniture.csv”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.OpenFile(String path) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 26
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 215
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding, Boolean isFolder) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 97
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 112
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 225
+2024/4/22 13:21:08|[Error]Call Stack:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 SagaLib.VirtualFileSystem.RealFileSystem.OpenFile(String path) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\VirtualFileSytem\IFileSystemImp\RealFileSystem.cs:行号 26
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 215
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding, Boolean isFolder) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 97
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 112
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 225
+2024/4/22 13:21:08|[Error]Trying to save all player's data
+2024/4/22 13:23:59|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/22 13:23:59|[Error]Error Message:System.DivideByZeroException: 尝试除以零。
+   在 SagaLib.Logger.ProgressBarShow(UInt32 progressPos, UInt32 progressTotal, String label) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Logger.cs:行号 320
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 224
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding, Boolean isFolder) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 97
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 112
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 225
+2024/4/22 13:23:59|[Error]Call Stack:   在 SagaLib.Logger.ProgressBarShow(UInt32 progressPos, UInt32 progressTotal, String label) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Logger.cs:行号 320
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 224
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding, Boolean isFolder) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 97
+   在 SagaLib.Factory`2.Init(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 112
+   在 SagaMap.MapServer.Main(String[] args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 225
+2024/4/22 13:23:59|[Error]Trying to save all player's data
+2024/4/22 13:25:07|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 13:25:07|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 13:56:46|[Error]Failed... Trying again in 5sec
+2024/4/22 13:56:46|[Error]System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:12000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 SagaMap.Network.LoginServer.LoginSession.Connect() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\LoginServer\LoginSession.cs:行号 51
+2024/4/22 14:09:55|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 14:10:07|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 14:10:07|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 14:10:57|[Error]Failed... Trying again in 5sec
+2024/4/22 14:10:57|[Error]System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:12000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 SagaMap.Network.LoginServer.LoginSession.Connect() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\LoginServer\LoginSession.cs:行号 51
+2024/4/22 14:11:27|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 14:11:37|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 14:11:37|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 14:16:33|[Error]Failed... Trying again in 5sec
+2024/4/22 14:16:33|[Error]System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:12000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 SagaMap.Network.LoginServer.LoginSession.Connect() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\LoginServer\LoginSession.cs:行号 51
+2024/4/22 14:16:34|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/22 14:16:34|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/22 14:16:34|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/22 14:16:34|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/22 14:16:34|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/22 14:16:34|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/22 14:16:34|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/22 14:16:34|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/22 14:16:34|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/22 14:16:34|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/22 14:16:40|[Error]Failed... Trying again in 5sec
+2024/4/22 14:16:40|[Error]System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:12000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 SagaMap.Network.LoginServer.LoginSession.Connect() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\LoginServer\LoginSession.cs:行号 51
+2024/4/22 14:16:43|[Error]Deadlock detected
+2024/4/22 14:16:43|[Error]Automatically unlocking....
+2024/4/22 14:16:43|[Debug]锁定线程名:
+      at SagaLib.ClientManager.checkCriticalArea C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\ClientMananger.cs:114
+
+2024/4/22 14:16:43|[Error]Call Stack Before Entered Critical Area:
+2024/4/22 14:16:43|[Error]Thread name:
+2024/4/22 14:16:43|[Error]at SagaLib.NetIO.ReceiveSize C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:367
+2024/4/22 14:16:43|[Error]at System.Net.LazyAsyncResult.Complete :0
+2024/4/22 14:16:43|[Error]at System.Net.ContextAwareResult.CompleteCallback :0
+2024/4/22 14:16:43|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:43|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:43|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:43|[Error]at System.Net.ContextAwareResult.Complete :0
+2024/4/22 14:16:43|[Error]at System.Net.LazyAsyncResult.ProtectedInvokeCallback :0
+2024/4/22 14:16:43|[Error]at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback :0
+2024/4/22 14:16:43|[Error]at System.Threading._IOCompletionCallback.PerformIOCompletionCallback :0
+2024/4/22 14:16:43|[Error]Call Stack of current blocking Thread:
+2024/4/22 14:16:43|[Error]Thread name:
+2024/4/22 14:16:43|[Error]at System.Threading.Thread.SleepInternal :0
+2024/4/22 14:16:43|[Error]at System.Threading.Thread.Sleep :0
+2024/4/22 14:16:43|[Error]at SagaMap.Network.LoginServer.LoginSession.Connect C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\LoginServer\LoginSession.cs:58
+2024/4/22 14:16:43|[Error]at SagaMap.Network.LoginServer.LoginSession.OnDisconnect C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\LoginServer\LoginSession.cs:148
+2024/4/22 14:16:43|[Error]at SagaLib.NetIO.Disconnect C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:320
+2024/4/22 14:16:43|[Error]at SagaLib.NetIO.ReceiveSize C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:368
+2024/4/22 14:16:43|[Error]at System.Net.LazyAsyncResult.Complete :0
+2024/4/22 14:16:43|[Error]at System.Net.ContextAwareResult.CompleteCallback :0
+2024/4/22 14:16:43|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:43|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:43|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:43|[Error]at System.Net.ContextAwareResult.Complete :0
+2024/4/22 14:16:43|[Error]at System.Net.LazyAsyncResult.ProtectedInvokeCallback :0
+2024/4/22 14:16:43|[Error]at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback :0
+2024/4/22 14:16:43|[Error]at System.Threading._IOCompletionCallback.PerformIOCompletionCallback :0
+2024/4/22 14:16:43|[Error]Call Stack of all blocking Threads:
+2024/4/22 14:16:43|[Error]Thread name:
+2024/4/22 14:16:43|[Error]at System.Threading.Thread.SleepInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.Thread.Sleep :0
+2024/4/22 14:16:44|[Error]at SagaMap.Network.LoginServer.LoginSession.Connect C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\LoginServer\LoginSession.cs:58
+2024/4/22 14:16:44|[Error]at SagaMap.Network.LoginServer.LoginSession.OnDisconnect C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\LoginServer\LoginSession.cs:148
+2024/4/22 14:16:44|[Error]at SagaLib.NetIO.Disconnect C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:320
+2024/4/22 14:16:44|[Error]at SagaLib.NetIO.ReceiveSize C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:368
+2024/4/22 14:16:44|[Error]at System.Net.LazyAsyncResult.Complete :0
+2024/4/22 14:16:44|[Error]at System.Net.ContextAwareResult.CompleteCallback :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Net.ContextAwareResult.Complete :0
+2024/4/22 14:16:44|[Error]at System.Net.LazyAsyncResult.ProtectedInvokeCallback :0
+2024/4/22 14:16:44|[Error]at System.Net.Sockets.BaseOverlappedAsyncResult.CompletionPortCallback :0
+2024/4/22 14:16:44|[Error]at System.Threading._IOCompletionCallback.PerformIOCompletionCallback :0
+2024/4/22 14:16:44|[Error]Call Stack of all Threads:
+2024/4/22 14:16:44|[Error]Thread name:Worker(4)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.Worker C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:253
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:Worker(5)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.Worker C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:253
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:Worker(6)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.Worker C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:253
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:Worker(7)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.Worker C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:253
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:WorkerSlow(8)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerSlow C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:258
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:WorkerSlow(9)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerSlow C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:258
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:WorkerSlow(10)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerSlow C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:258
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:WorkerSlow(11)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerSlow C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:258
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:WorkerSlow(12)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerSlow C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:258
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:WorkerSlow(13)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerSlow C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:258
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:WorkerSlow(14)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerSlow C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:258
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:WorkerSlow(15)
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOneNative :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.InternalWaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at System.Threading.WaitHandle.WaitOne :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerIntern C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:282
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.WorkerSlow C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:258
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Error]Thread name:ThreadPoolMainLoop(16)
+2024/4/22 14:16:44|[Error]at System.Threading.Thread.SleepInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.Thread.Sleep :0
+2024/4/22 14:16:44|[Error]at SagaLib.TaskManager.MainLoop C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Tasks\TaskManager.cs:237
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart_Context :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.RunInternal :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ExecutionContext.Run :0
+2024/4/22 14:16:44|[Error]at System.Threading.ThreadHelper.ThreadStart :0
+2024/4/22 14:16:44|[Debug]Thread() used unnormal time till unlock(12 sec)
+      at SagaLib.ClientManager.LeaveCriticalArea C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\ClientMananger.cs:293
+      at SagaLib.ClientManager.checkCriticalArea C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\ClientMananger.cs:194
+
+2024/4/22 14:16:53|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 14:17:03|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 14:17:03|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 14:17:16|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/22 14:17:16|[Error]Error Message:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SagaMap.MapServer.ShutingDown(Object sender, ConsoleCancelEventArgs args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 682
+   在 System.Console.ControlCDelegate(Object data)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2024/4/22 14:17:16|[Error]Call Stack:   在 SagaMap.MapServer.ShutingDown(Object sender, ConsoleCancelEventArgs args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 682
+   在 System.Console.ControlCDelegate(Object data)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2024/4/22 14:17:16|[Error]Trying to save all player's data
+2024/4/22 14:18:26|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 14:18:41|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 14:18:41|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:19:55|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:19:55|[SQL]Error to many times, dropping command
+2024/4/22 14:25:25|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 14:25:41|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 14:25:41|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 14:33:26|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/22 14:33:52|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 14:33:52|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error on query:SELECT * FROM `apiitem` WHERE `char_id`='1' AND status = 0 ORDER BY `request_time` DESC;
+2024/4/22 14:35:11|[SQL]Table 'sagaeco.apiitem' doesn't exist
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 111
+
+2024/4/22 14:35:11|[SQL]Error to many times, dropping command
+2024/4/22 14:44:13|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/22 14:44:13|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/22 14:46:01|[Debug]Unknown Packet:0x0268
+       Data:02 68 00 00 00 01 
+      at SagaLib.NetIO.ProcessPacket C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:560
+
+2024/4/22 14:59:09|[Error]给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 SagaMap.Network.Client.MapClient.OnVShopCategoryRequest(CSMG_VSHOP_CATEGORY_REQUEST p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.NPC.cs:行号 250
+   在 SagaMap.Packets.Client.CSMG_VSHOP_CATEGORY_REQUEST.Parse(Client client) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Packets\Client\VShop\CSMG_VSHOP_CATEGORY_REQUEST.cs:行号 33
+   在 SagaLib.NetIO.ProcessPacket(Packet p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 600
+2024/4/22 21:00:37|[Debug]Unknown Packet:0x1B80
+       Data:1B 80 
+      at SagaLib.NetIO.ProcessPacket C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:560
+
+2024/4/22 21:00:40|[Debug]Unknown Packet:0x226A
+       Data:22 6A 
+      at SagaLib.NetIO.ProcessPacket C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:560
+      at SagaLib.NetIO.ReceiveSize C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:431
+
+2024/4/22 21:01:46|[Debug]Unknown Packet:0x0268
+       Data:02 68 00 00 00 01 
+      at SagaLib.NetIO.ProcessPacket C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:560
+
+2024/4/22 21:11:54|[Error]给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 SagaMap.Network.Client.MapClient.OnVShopCategoryRequest(CSMG_VSHOP_CATEGORY_REQUEST p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.NPC.cs:行号 250
+   在 SagaMap.Packets.Client.CSMG_VSHOP_CATEGORY_REQUEST.Parse(Client client) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Packets\Client\VShop\CSMG_VSHOP_CATEGORY_REQUEST.cs:行号 33
+   在 SagaLib.NetIO.ProcessPacket(Packet p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 600
+2024/4/22 21:39:24|[Debug]Cannot equip a non equipment item!
+      at SagaDB.Item.Item.get_EquipSlot C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\Item.cs:1177
+      at SagaMap.Network.Client.MapClient.GetGoldForRecycle C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Trade.cs:147
+      at SagaMap.Network.Client.MapClient.OnTradeItemNPC C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Trade.cs:173
+      at SagaMap.Network.Client.MapClient.OnTradeItem C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Trade.cs:184
+      at SagaMap.Packets.Client.CSMG_TRADE_ITEM.Parse C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Packets\Client\Trade\CSMG_TRADE_ITEM.cs:62
+      at SagaLib.NetIO.ProcessPacket C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:600
+      at SagaLib.NetIO.ReceiveData C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:560
+      at SagaLib.NetIO.ReceiveSize C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:431
+

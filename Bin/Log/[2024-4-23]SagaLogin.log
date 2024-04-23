@@ -1,0 +1,35 @@
+2024/4/23 0:19:02|[Debug]Thread() used unnormal time till unlock(59 sec)
+      at SagaLib.ClientManager.LeaveCriticalArea C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\ClientMananger.cs:293
+      at SagaLib.ClientManager.LeaveCriticalArea C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\ClientMananger.cs:281
+      at SagaLib.NetIO.ReceiveSize C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:369
+
+2024/4/23 0:19:02|Warning:A map server has just disconnected...
+2024/4/23 0:19:02|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/23 0:19:02|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/23 0:19:02|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/23 0:19:02|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/23 0:19:02|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/23 0:19:02|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/23 0:19:02|[Error]无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+   在 System.Net.Sockets.NetworkStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 SagaLib.NetIO.SendPacket(Packet p, Boolean nolength, Boolean noWarper) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 708
+2024/4/23 10:03:22|Warning:A map server has just disconnected...
+2024/4/23 10:22:06|Warning:A map server has just disconnected...
+2024/4/23 13:55:40|Warning:A map server has just disconnected...
+2024/4/23 14:11:47|Warning:A map server has just disconnected...
+2024/4/23 15:12:45|Warning:A map server has just disconnected...
+2024/4/23 15:31:03|Warning:A map server has just disconnected...
+2024/4/23 15:33:30|Warning:A map server has just disconnected...
+2024/4/23 15:36:59|Warning:A map server has just disconnected...

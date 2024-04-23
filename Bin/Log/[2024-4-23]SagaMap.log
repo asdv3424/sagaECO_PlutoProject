@@ -1,0 +1,492 @@
+2024/4/23 0:17:01|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/23 0:17:01|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/23 0:18:59|[Error]Fatal: An unhandled exception is thrown, terminating...
+2024/4/23 0:18:59|[Error]Error Message:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SagaMap.MapServer.ShutingDown(Object sender, ConsoleCancelEventArgs args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 682
+   在 System.Console.ControlCDelegate(Object data)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2024/4/23 0:18:59|[Error]Call Stack:   在 SagaMap.MapServer.ShutingDown(Object sender, ConsoleCancelEventArgs args) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\MapServer.cs:行号 682
+   在 System.Console.ControlCDelegate(Object data)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+2024/4/23 0:18:59|[Error]Trying to save all player's data
+2024/4/23 0:19:19|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/23 0:19:35|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/23 0:19:35|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/23 0:43:29|[Debug]Cannot equip a non equipment item!
+      at SagaDB.Item.Item.get_EquipSlot C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\Item.cs:1177
+      at SagaMap.Network.Client.MapClient.GetGoldForRecycle C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Trade.cs:147
+      at SagaMap.Network.Client.MapClient.OnTradeItemNPC C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Trade.cs:173
+      at SagaMap.Network.Client.MapClient.OnTradeItem C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Trade.cs:184
+      at SagaMap.Packets.Client.CSMG_TRADE_ITEM.Parse C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Packets\Client\Trade\CSMG_TRADE_ITEM.cs:62
+      at SagaLib.NetIO.ProcessPacket C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:600
+      at SagaLib.NetIO.ReceiveData C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:560
+
+2024/4/23 10:00:06|[Error]给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 SagaMap.Network.Client.MapClient.SendWareItems(WarehousePlace place) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Item.Ware.cs:行号 146
+   在 SagaMap.Network.Client.MapClient.OnItemWarePage(CSMG_ITEM_WARE_PAGE p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Item.Ware.cs:行号 27
+   在 SagaMap.Packets.Client.CSMG_ITEM_WARE_PAGE.Parse(Client client) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Packets\Client\Item\CSMG_ITEM_WARE_PAGE.cs:行号 34
+   在 SagaLib.NetIO.ProcessPacket(Packet p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 600
+2024/4/23 10:00:48|[Error]给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 SagaMap.Network.Client.MapClient.SendWareItems(WarehousePlace place) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Item.Ware.cs:行号 146
+   在 SagaMap.Network.Client.MapClient.OnItemWarePage(CSMG_ITEM_WARE_PAGE p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Item.Ware.cs:行号 27
+   在 SagaMap.Packets.Client.CSMG_ITEM_WARE_PAGE.Parse(Client client) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Packets\Client\Item\CSMG_ITEM_WARE_PAGE.cs:行号 34
+   在 SagaLib.NetIO.ProcessPacket(Packet p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 600
+2024/4/23 10:03:40|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/23 10:03:50|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/23 10:03:50|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/23 10:06:05|[Error]给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 SagaMap.Network.Client.MapClient.SendWareItems(WarehousePlace place) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Item.Ware.cs:行号 146
+   在 SagaMap.Network.Client.MapClient.OnItemWarePage(CSMG_ITEM_WARE_PAGE p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Item.Ware.cs:行号 27
+   在 SagaMap.Packets.Client.CSMG_ITEM_WARE_PAGE.Parse(Client client) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Packets\Client\Item\CSMG_ITEM_WARE_PAGE.cs:行号 34
+   在 SagaLib.NetIO.ProcessPacket(Packet p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 600
+2024/4/23 10:19:46|[Error]给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 SagaMap.Network.Client.MapClient.SendWareItems(WarehousePlace place) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Item.Ware.cs:行号 146
+   在 SagaMap.Network.Client.MapClient.OnItemWarePage(CSMG_ITEM_WARE_PAGE p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\Client\MapClient.Item.Ware.cs:行号 27
+   在 SagaMap.Packets.Client.CSMG_ITEM_WARE_PAGE.Parse(Client client) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Packets\Client\Item\CSMG_ITEM_WARE_PAGE.cs:行号 34
+   在 SagaLib.NetIO.ProcessPacket(Packet p) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:行号 600
+2024/4/23 12:50:29|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/23 12:50:58|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/23 12:50:58|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/23 13:25:32|[Error]Failed... Trying again in 5sec
+2024/4/23 13:25:33|[Error]System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:12000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 SagaMap.Network.LoginServer.LoginSession.Connect() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaMap\Network\LoginServer\LoginSession.cs:行号 51
+2024/4/23 13:40:44|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/23 13:40:55|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/23 13:40:55|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/23 13:56:38|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/23 13:56:51|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/23 13:56:51|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/23 14:06:34|[Debug]Unknown Packet:0x0268
+       Data:02 68 00 00 00 01 
+      at SagaLib.NetIO.ProcessPacket C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:630
+      at SagaLib.NetIO.ReceiveData C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\NetIO.cs:560
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error on query:DELETE FROM `another_paper` WHERE `char_id`='3';INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','1','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','2','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','4','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','6','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','7','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','8','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','9','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','10','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','11','0','0');INSERT INTO `another_paper`(`char_id`,`paper_id`,`paper_lv`,`paper_value`)VALUES ('3','13','0','0');
+2024/4/23 14:07:02|[SQL]Duplicate entry '1' for key 'PRIMARY'
+   在 SagaLib.MySQLConnectivity.ProcessMysql() 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\MySQLConnectivity.cs:行号 106
+
+2024/4/23 14:07:02|[SQL]Error to many times, dropping command
+2024/4/23 15:06:04|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/23 15:06:15|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/23 15:06:15|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/23 15:29:33|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/23 15:29:53|[Error]输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.UInt16.Parse(String s)
+   在 SagaDB.Furniture.FurnitureFactory.ParseCSV(Furniture item, String[] paras) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaDB\Item\FurnitureFactory.cs:行号 60
+   在 SagaLib.Factory`2.InitCSV(String path, Encoding encoding) 位置 C:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\SagaLib\Factory.cs:行号 246
+2024/4/23 15:29:53|[Error]Error on parsing furniture db!
+       File:DB/furniture.csv:1592
+2024/4/23 15:30:20|[Error]Compile Error:无法将类型“uint”隐式转换为“int”。存在一个显式转换(是否缺少强制转换?)
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\地圖傳送點.cs:19482
+2024/4/23 15:30:20|[Error]Compile Error:无法将类型“uint”隐式转换为“int”。存在一个显式转换(是否缺少强制转换?)
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\地圖傳送點.cs:19491
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:29
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:29
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:30
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:30
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:31
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:31
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:32
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:32
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:33
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:33
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:34
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:34
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:35
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:35
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:36
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:36
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:37
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:37
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:56
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:56
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:57
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:57
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:58
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:58
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:59
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:59
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:60
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:60
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:61
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:61
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:62
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:62
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:63
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:63
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:64
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:64
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:27
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:27
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:32
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:32
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:35
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:35
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:39
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:39
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:56
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:56
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\凱堤系列任務\新緑\通天之塔(50063000)\纸箱(12002102) .cs:207
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\凱堤系列任務\新緑\通天之塔(50063000)\纸箱(12002102) .cs:207
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:25
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:25
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:46
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:46
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:48
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:48
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:55
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:55
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:60
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:60
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:63
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:63
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:69
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:69
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:72
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:72
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:77
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:77
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:80
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:80
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:83
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:83
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:88
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:88
+2024/4/23 15:30:20|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:90
+2024/4/23 15:30:20|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:30:20|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:90
+2024/4/23 15:32:22|Warning:ClientGameVersion is undefined, accepting all version.
+2024/4/23 15:32:22|[Error]cannot listen on port: 12006
+2024/4/23 15:32:55|[Error]Compile Error:无法将类型“uint”隐式转换为“int”。存在一个显式转换(是否缺少强制转换?)
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\地圖傳送點.cs:19482
+2024/4/23 15:32:55|[Error]Compile Error:无法将类型“uint”隐式转换为“int”。存在一个显式转换(是否缺少强制转换?)
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\地圖傳送點.cs:19491
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:29
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:29
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:30
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:30
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:31
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:31
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:32
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:32
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:33
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:33
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:34
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:34
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:35
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:35
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:36
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:36
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:37
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:37
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:56
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:56
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:57
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:57
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:58
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:58
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:59
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:59
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:60
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:60
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:61
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:61
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:62
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:62
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:63
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:63
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:64
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\NPC模組\迎賓兔子.cs:64
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:27
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:27
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:32
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:32
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:35
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:35
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:39
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:39
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:56
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\DEM初心者任務\ステップキャニオン(50082000)\11002199.cs:56
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\凱堤系列任務\新緑\通天之塔(50063000)\纸箱(12002102) .cs:207
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\任务地图\凱堤系列任務\新緑\通天之塔(50063000)\纸箱(12002102) .cs:207
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:25
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:25
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:46
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:46
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:48
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:48
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:55
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:55
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:60
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:60
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:63
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:63
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:69
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:69
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:72
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:72
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:77
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:77
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:80
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:80
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:83
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:83
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:88
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:88
+2024/4/23 15:32:55|[Error]Compile Error:与“SagaMap.Scripting.Event.NPCMotion(SagaDB.Actor.ActorPC, uint, ushort, bool, uint)”最匹配的重载方法具有一些无效参数
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:90
+2024/4/23 15:32:55|[Error]Compile Error:参数 5: 无法从“bool”转换为“uint”
+2024/4/23 15:32:55|[Error]File:c:\Users\Administrator\Desktop\SagaECO-master\PlutoProject\Bin\Scripts\Scripts\多米尼翁\軍艦島地下(22197000)\マイク・タルパ(11002239).cs:90
